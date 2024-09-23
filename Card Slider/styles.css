@@ -19,7 +19,7 @@ body{
     list-style: none
 }
 
-.card-link .card-item .card-link{
+.card-list .card-item .card-link{
     width: 400px;
     display: block;
     background: #fff;
@@ -27,8 +27,14 @@ body{
     border-radius: 12px;
     text-decoration: none;
     border: 2px solid transparent;
-    box-shadow: 0 10px 10px rgba(0,0,0,0-05)
+    box-shadow: 0 10px 10px rgba(0,0,0,0-05);
+    transition: 0.3s ease;
 }
+
+.card-list .card-item .card-link:hover{
+    border-color: #5372F0;
+}
+
 .card-list .card-link .card-image{
     width: 100%;
     aspect-ratio: 16/9;
